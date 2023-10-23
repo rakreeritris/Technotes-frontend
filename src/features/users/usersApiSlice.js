@@ -52,3 +52,4 @@ export const {
 } = usersAdapter.getSelectors(
   (state) => selectUsersData(state) ?? initialState
 );
+// working on understanding redux
